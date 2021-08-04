@@ -1,0 +1,28 @@
+.h-container{
+    position: sticky;
+    top:0;
+    height: 1.32rem;
+    padding-top: 0.66rem;
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    .arrow{
+        width:0.40rem;
+        height: 0.32rem;
+        position: absolute;
+        left: 0.32rem;
+    }
+    span{
+        font-size: 0.36rem;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #333333;
+        text-align: center;
+        display: inline-block;
+        margin-top: -0.14rem;
+    }
+}

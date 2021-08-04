@@ -1,0 +1,41 @@
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 0.96rem;
+    background: linear-gradient(94deg, #00E0E5 0%, #0086FA 100%);
+    display: flex;
+    
+    .clear{
+        font-size: 0.34rem;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #FFFFFF;
+        width: 50%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .clear::after{
+        content: '';
+        width: 2px;
+        height: 0.56rem;
+        background: #EEEEEE;
+        position: absolute;
+        right: -1px;
+    }
+    .reset{
+        font-size: 0.34rem;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #FFFFFF;
+        width: 50%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+}
+canvas{
+    width: 100%;
+}

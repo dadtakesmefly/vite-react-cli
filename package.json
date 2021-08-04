@@ -1,0 +1,14 @@
+{
+  "name": "vite-react-demo",
+  "version": "1.1.2",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "init": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wangtao",
+  "license": "ISC"
+}
